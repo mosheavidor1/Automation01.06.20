@@ -125,7 +125,7 @@
 	<repositories>
 		<repository>
 			<id>releases</id>
-			<url>http://nexus01.trustwave.com/content/groups/public</url>
+			<url>https://nexus01.trustwave.com/content/groups/public</url>
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>never</updatePolicy>
@@ -137,7 +137,7 @@
 		</repository>
 		<repository>
 			<id>snapshots</id>
-			<url>http://nexus01.trustwave.com/content/groups/public-snapshots</url>
+			<url>https://nexus01.trustwave.com/content/groups/public-snapshots</url>
 			<releases>
 				<enabled>false</enabled>
 			</releases>
@@ -152,11 +152,11 @@
       <repository>
          <id>maven-releases</id>
          <name>tw repo</name>
-         <url>http://nexus01.trustwave.com/content/repositories/releases/</url>
+         <url>https://nexus01.trustwave.com/content/repositories/releases/</url>
       </repository>
       <snapshotRepository>
          <id>maven-snapshots</id>
-         <url>http://nexus01.trustwave.com/content/repositories/snapshots/</url>
+         <url>https://nexus01.trustwave.com/content/repositories/snapshots/</url>
       </snapshotRepository>
    </distributionManagement>
 
